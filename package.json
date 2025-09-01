@@ -1,7 +1,7 @@
 {
   "name": "integration-cloud-serie",
   "version": "1.0.0",
-  "description": "Intégration de services cloud",
+  "description": "Integration of cloud services for seamless connectivity",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
