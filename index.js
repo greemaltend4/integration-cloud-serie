@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
 
 // Routes pour les intégrations des services cloud
 // Ajouter ici les routes pour Google Drive, Dropbox, AWS S3
+// Exemple :
+// app.use('/google-drive', googleDriveRoutes);
+// app.use('/dropbox', dropboxRoutes);
+// app.use('/aws-s3', awsS3Routes);
 
 app.listen(PORT, () => {
   console.log(`Serveur en écoute sur le port ${PORT}`);
