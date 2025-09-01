@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l\'API d\'Intégration Cloud Série!');
+  res.send('Bienvenue sur l\'API d\'Intégration Cloud Séries!'); // Fixed typo from "Série" to "Séries"
 });
 
 // Routes pour les intégrations des services cloud
